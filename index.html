@@ -15,22 +15,57 @@
     <title>Exercicios</title>
   </head>
   <body>
-
     <main>
       <div class="text-content">
         <h2>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h2>
-        <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        <p>
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
       </div>
 
       <form action="" method="post">
-        <input class="input" type="text" name="inputNome" id="inputNome" placeholder="Nome completo *" required />
-        <span class="msg-erro"><p>Campo obrigatório*</p></span>
-        <input class="input" type="text" name="inputEmail" id="inputEmail" placeholder="Email *" required />
-        <span class="msg-erro"><p>Campo obrigatório*</p></span>
-        <input class="input" type="text" name="inpuTelefone" id="inputTelefone" placeholder="Telefone *" required />
-        <span class="msg-erro"><p>Campo obrigatório*</p></span>
-        <textarea class="input" name="inputMensagem" id="inputMensagem" placeholder="Mensagem *"></textarea>
-        <span class="msg-erro"><p>Campo obrigatório*</p></span>
+        <div class="row">
+          <input
+            class="input"
+            type="text"
+            name="inputNome"
+            id="inputNome"
+            placeholder="Nome completo *"
+            required
+          />
+          <span class="msg-erro"><p>Campo obrigatório*</p></span>
+        </div>
+        <div class="row">
+          <input
+            class="input"
+            type="text"
+            name="inputEmail"
+            id="inputEmail"
+            placeholder="Email *"
+            required
+          />
+          <span class="msg-erro"><p>Campo obrigatório*</p></span>
+        </div>
+        <div class="row">
+          <input
+            class="input"
+            type="text"
+            name="inpuTelefone"
+            id="inputTelefone"
+            placeholder="Telefone *"
+            required
+          />
+          <span class="msg-erro"><p>Campo obrigatório*</p></span>
+        </div>
+        <div class="row"><textarea
+          class="input"
+          name="inputMensagem"
+          id="inputMensagem"
+          placeholder="Mensagem *"
+        ></textarea>
+        <span class="msg-erro"><p>Campo obrigatório*</p></span></div>
+      
         <p>*Campos obrigatórios</p>
         <button class="btn-submit" id="btn-submit" type="submit">Enviar</button>
       </form>
